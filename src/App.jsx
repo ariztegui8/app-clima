@@ -5,7 +5,7 @@ import { ClimaProvider } from "./context/ClimaProvider";
 function App() {
   return (
     <ClimaProvider>
-      <header>
+      <header className="container-header">
         <h1>Buscador de Clima</h1>
       </header>
       <AppClima />
